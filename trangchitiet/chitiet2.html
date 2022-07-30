@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="chitiet.css">
+    <script
+      src="https://kit.fontawesome.com/41b883a0ca.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <nav>
+            <a href="../trang chu/trangchu.html">
+              <img
+                src="../img/kisspng-swoosh-nike-adidas-logo-hoodie-kije-golfowe-rakiety-tenisowe-sprzęt-i-ubrania-5b67f12fed3915.0296884615335386079717.png"
+                alt=""
+              />
+            </a>
+          </nav>
+        </div>
+        <div class="menu">
+          <a href="../trangsp/men.html">Men</a>
+          <a href="../trangsp/women.html">Women</a>
+          <a href="../trangsp/kids.html">Kids</a>
+          <a href="../trangsp/sale.html">Sale</a>
+        </div>
+       <div class="menu1">
+          
+              
+               <a href="../cart/cart.html"> <i
+                  class="fas fa-shopping-cart"
+                  style="font-size: 25px; color: rgb(53, 53, 53)"
+                ></i></a>
+              
+                
+                <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><i
+                  class="fa-solid fa-user"
+                  style="font-size: 25px; color: rgb(53, 53, 53)"
+                ></i></button>
+                <!-- <a href=""><i
+                  class="fa-solid fa-user"
+                  style="font-size: 25px; color: rgb(53, 53, 53)"
+                ></i></a> -->
+            
+      </div>
+      </header>
+
+
+      <section class="section">
+        <div class="product-list">
+          <div class="product-item">
+           <div class="item">
+            <img
+            src="../img/2.1.webp"
+            alt=""
+          />
+           </div>
+           <div class="item">
+            <img
+            src="../img/2.2"
+            alt=""
+          />
+           </div>
+           <div class="item">
+            <img
+            src="../img/2.3.webp"
+            alt=""
+          />
+           </div>
+           <div class="item">
+            <img
+            src="../img/2.4.webp"
+            alt=""
+          />
+           </div>
+        </div>
+         
+  
+          <div class="item2">
+            <h1>Jordan Why Not .5 PF</h1>
+            <p>Men's Basketball Shoes </p>
+            <p>Giá: 3.289.000 VNĐ</p>
+            <a href="../cart/cart.html" ; class="buy">Mua hàng</a>
+            <p>Seclet size</p>
+          <div  class="size">
+            <span class="demo" onclick="myFunction()">EU 40</span>
+            <span>EU 41</span>
+            <span>EU 42</span>
+            <span>EU 42.5</span>
+            <span>EU 43</span>
+            <span>EU 41</span>
+            <span>EU 41</span>
+            <span>EU 41</span>
+            <span>EU 41</span>
+            <span>EU 41</span>
+            <span>EU 41</span>
+            <span>EU 41</span>
+            
+          </div>
+          
+          
+          </div>
+
+
+        </div>
+      </section>
+    
+
+
+
+
+      <div id="id01" class="modal">
+  
+        <form class="modal-content animate" action="/action_page.php" method="post">
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <img src="../img/kisspng-swoosh-nike-adidas-logo-hoodie-kije-golfowe-rakiety-tenisowe-sprzęt-i-ubrania-5b67f12fed3915.0296884615335386079717.png" alt="Avatar" class="avatar">
+          </div>
+      
+          <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+      
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+              
+            <button type="submit" class="btnlogin">Sign In</button>
+            <label class="remember">
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+          </div>
+      
+          <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id02').style.display='block'" style="width:auto;" class="cancelbtn">Join Us</button>
+            <span class="psw"> <a href="">Forgot password?</a></span>
+          </div>
+        </form>
+      </div>
+      
+      <!-- ------------------------------------------------------------------- -->
+      
+      <div id="id02" class="modal">
+        
+        <form class="modal-content animate" action="/action_page.php" method="post">
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <img src="../img/kisspng-swoosh-nike-adidas-logo-hoodie-kije-golfowe-rakiety-tenisowe-sprzęt-i-ubrania-5b67f12fed3915.0296884615335386079717.png" alt="Avatar" class="avatar">
+          </div>
+      
+          <div class="container">
+            <label for="uname"><b>Firstname</b></label>
+            <input type="text" placeholder="Enter Firstname" name="uname" required>
+            
+            <label for="uname"><b>Lastname</b></label>
+            <input type="text" placeholder="Enter Lastname" name="uname" required>
+            <label for="uname"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="uname" required>
+            
+      
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+              
+            <button type="submit" class="btnlogin">Join US</button>
+            
+          </div>
+      
+        
+        </form>
+      </div>
+
+      <!-- ------------------------------------------------- -->
+     
+      
+      <!-- ------------------------------------------------------------------- -->
+      
+      <footer>
+        <div class="end">
+          <div class="end1">
+            <nav>
+              <h4>FIND A STORE</h4>
+              <h4>BECOME A MEMBER</h4>
+              <h4>SIGN UP FOR EMAIL</h4>
+              <h4>SEND US FEEDBACK</h4>
+            </nav>
+            <nav>
+              <h4>GET HELP</h4>
+              <p>Oder Status</p>
+              <p>Delivery</p>
+              <p>Returns</p>
+              <p>Payment Options</p>
+              <p>Contant Us</p>
+            </nav>
+            <nav>
+              <h4>ABOUT ME</h4>
+              <p>News</p>
+              <p>Careers</p>
+              <p>Investors</p>
+              <p>Sustainability</p>
+            </nav>
+          </div>
+          <div class="icon">
+            
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-youtube"></i></a>
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+      </footer> 
+      <script src="chitiet.js"></script>c
+</body>
+</html>
